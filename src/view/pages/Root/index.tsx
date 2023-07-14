@@ -3,9 +3,8 @@ import React, { FC } from 'react';
 
 // Components
 import { ErrorBoundary } from '../../components';
+import { Widget } from '../../components/Widget';
 
-// Elements
-import { HelloBurst } from '../../elements';
 
 // Styles
 import { Container } from './styles';
@@ -13,7 +12,7 @@ import { Container } from './styles';
 const Root: FC = () => {
     return (
         <Container>
-            <HelloBurst />
+            <Widget />
         </Container>
     );
 };
